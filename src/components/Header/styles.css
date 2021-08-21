@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8fd33665;
+    height: auto;
+  }
+  .header .box-border {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgb(171, 230, 211);
+    box-shadow: inset 0px 0px 10px;
+  }
+  .header .box-name {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    background-color: rgb(160, 212, 172);
+  }
+  .header .box-name .title {
+    margin: 10px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .header .box-name .sub-title {
+    font-size: 18px;
+    font-family: monospace;
+  }
