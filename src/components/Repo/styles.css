@@ -1,0 +1,39 @@
+.box-repos {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: #8fd33665;
+    margin-bottom: 20px;
+    border: solid;
+    box-shadow: 0 10px 10px -5px; 
+    flex-shrink:initial;
+  }
+  a:link {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  a:visited {
+    color: #999999;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(39, 33, 33);
+    text-decoration: none;
+  }
+  .flex-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .url-repos{
+    font-size: 15px;
+    margin: 1px 10px 10px 10px; 
+    cursor: pointer;
+  }
+  h4{
+    word-break: break-all;
+  }
