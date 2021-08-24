@@ -4,7 +4,6 @@ import { Avatar } from './components/Avatar';
 import { DivFlex } from './components/DivFlex';
 import { Header } from './components/Header';
 import { Information } from './components/Information';
-import { Partition } from './components/Partition';
 import { Repo } from './components/Repo';
 
 function App() {
